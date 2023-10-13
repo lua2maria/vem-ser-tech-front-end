@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0055A4; /* Azul da bandeira da Suécia */
+    color: #ffffff; /* Fonte branca */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #0055A4; /* Azul da bandeira da Suécia */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(243, 228, 13);
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #4d94ff; /* Azul claro */
+    background-color: transparent;
+    color: #eff309;
+    font-size: 16px;
+    transition: border-bottom 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-bottom: 2px solid #ff6f61; /* Vermelho */
+    outline: none;
+}
+
+input[type="tel"] {
+    font-size: 14px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ffef14; /* Vermelho */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2264c7; /* Vermelho mais escuro */
+}

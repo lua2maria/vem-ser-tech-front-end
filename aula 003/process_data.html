@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do Formulário</title>
+</head>
+<body>
+    <h1>Dados do Formulário Recebidos</h1>
+    <p>Aqui estão os dados enviados do formulário:</p>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+
+        params.forEach(function (value, key) {
+            const paragraph = document.createElement("p");
+            paragraph.textContent = `${key}: ${value}`;
+            document.body.appendChild(paragraph);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando a tabela */
+table.tg {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff; /* Cor de fundo da tabela */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Cor das bordas */
+    padding: 10px; /* Padding ajustado */
+    text-align: left;
+}
+
+th {
+    background-color: #3166FF;
+    color: white;
+    font-weight: bold;
+    font-size: 18px; /* Tamanho da fonte aumentado */
+    text-align: center; /* Centralizar o cabeçalho */
+}
+
+/* Estilizando as células da tabela com classes específicas */
+.tg-0pky {
+    background-color: #68CBD0; /* Azul-Verde */
+    color: white;
+    font-weight: bold; /* Texto em negrito */
+}
+
+.tg-90iu {
+    background-color: #9ACD32; /* Verde Amarelado */
+    color: white;
+    font-weight: bold; /* Texto em negrito */
+}
+
+.tg-hlr3 {
+    background-color: #FF6B6B; /* Rosa */
+    color: white;
+    font-weight: bold; /* Texto em negrito */
+}
+
+.tg-iqgp {
+    background-color: #3166FF;
+    color: white;
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilizando a lista de compras */
+ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+ul li {
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul li:hover {
+    background-color: #3166FF;
+    color: white;
+}
+
+/* Estilizando as seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff; /* Cor de fundo das seções */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilizando a lista de atividades */
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Adicionando estilos ao cabeçalho */
+h1, h2, h3 {
+    color: #3166FF;
+    text-align: center;
+}
+
+/* Estilizando os links */
+a {
+    color: #3166FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Estilizando as seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff; /* Cor de fundo das seções */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilizando a lista de atividades */
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    border: 1px solid #dddddd; /* Adicionando borda à lista de atividades */
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/* Adicionando estilos ao cabeçalho da tabela */
+h1, h2, h3 {
+    color: #3166FF;
+    text-align: center;
+}
+
+/* Estilizando os links */
+a {
+    color: #3166FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando a lista de compras */
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    border: 1px solid #dddddd; /* Adicionando borda à lista de compras */
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/* Estilizando as linhas de atividades */
+ol li {
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ol li:nth-child(odd) {
+    background-color: #F0F0F0; /* Cor de fundo para linhas ímpares */
+}
+
+ol li:nth-child(even) {
+    background-color: #E0E0E0; /* Cor de fundo para linhas pares */
+}
+
+/* Estilizando as bordas das atividades */
+ol li {
+    border-left: 4px solid #3166FF; /* Cor da borda à esquerda das atividades */
+}
+
+/* Estilizando as bordas da lista de compras */
+ul li {
+    border-left: 4px solid #3166FF; /* Cor da borda à esquerda dos itens da lista de compras */
+}
