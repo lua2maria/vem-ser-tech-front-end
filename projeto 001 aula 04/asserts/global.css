@@ -1,0 +1,174 @@
+/* Defina o estilo do corpo da página */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #000; /* Preto */
+    color: #fff; /* Texto branco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize o cabeçalho (header) */
+header {
+    background-image: url('/asserts/img/coffee-2698122_1280.jpg'); /* Adicione a imagem do banner */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+/* Centralize a navegação no meio da página */
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #8B4513; /* Roxo escuro */
+}
+
+/* Estilize a seção de história (História) */
+#historia {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto translúcido */
+    padding: 50px;
+    text-align: center;
+}
+
+#historia h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Estilize a seção do menu (Menu) e shop (Shop) */
+.menu-shop-container {
+    display: table;
+    width: 100%;
+}
+
+.menu, .shop {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    padding: 20px;
+    width: 50%; /* Cada um ocupa 50% da largura */
+    background-color: #fff;
+    transition: transform 0.3s; /* Adicione transição para efeito de hover */
+}
+
+/* Efeito de escala (zoom) nas imagens */
+.menu img, .shop img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s; /* Adicione uma transição suave */
+}
+
+.menu:hover, .shop:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+/* Outros estilos para as seções de menu e shop */
+#menu h2, #shop h2 {
+    font-size: 24px;
+    color: #000; /* Preto */
+}
+
+/* Estilize a seção de eventos (Eventos Especiais) */
+#eventos {
+    background-color: #3f200a; /* Roxo escuro */
+    padding: 50px;
+    text-align: center;
+}
+
+#eventos h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Estilize a tabela de preços */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #000; /* Preto */
+    color: #fff;
+}
+
+table td {
+    background-color: #fff; /* Fundo branco */
+}
+
+/* Estilize o formulário de registro */
+#contato {
+    background-image: url('/asserts/img/pexels-viktoria-alipatova-2074130.jpg'); /* Adicione a imagem da xícara de café */
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+#contato form {
+    margin: 20px 0;
+}
+
+#contato label {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+
+#contato input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#contato button[type="submit"] {
+    background-color: #5a2e0e; /* Roxo escuro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contato button[type="submit"]:hover {
+    background-color: #000; /* Preto */
+}
