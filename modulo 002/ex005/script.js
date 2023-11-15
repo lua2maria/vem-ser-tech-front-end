@@ -26,7 +26,7 @@ function calcularImc() {
         return;
     }
 
-    // Convertendo altura para metros
+
     const alturaEmMetros = alturaEmCentimetros / 100;
 
     const imc = peso / (alturaEmMetros * alturaEmMetros);
