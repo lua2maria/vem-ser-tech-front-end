@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="asserts/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>ToDo Lista</h1>
+
+    <form id="task-form">
+        <label for="id">ID:</label>
+        <input type="number" id="id" required>
+
+        <label for="title">Título:</label>
+        <input type="text" id="title" required>
+
+        <label for="description">Descrição:</label>
+        <textarea id="description" required></textarea>
+
+        <button type="button" id="add-task-button">Adicionar Tarefa</button>
+    </form>
+
+    <div id="search-container">
+        <label for="search-id">Buscar pelo ID:</label>
+        <input type="number" id="search-id">
+        <button type="button" id="search-button">Buscar</button>
+    </div>
+
+    <div id="tasks-container" class="tasks"></div>
+
+    <div id="result" class="error"></div>
+</div>
+
+<script src="asserts/script.js"></script>
+</body>
+</html>
+
