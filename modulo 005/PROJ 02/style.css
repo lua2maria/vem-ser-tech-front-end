@@ -1,0 +1,54 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e1da;
+    color: #8e738b;
+}
+
+header {
+    background-color: #ffe6f1;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu a {
+    color: #635c51;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #39304A;
+}
+
+.gerenciamento-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jogos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.jogo-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d4a5a5;
+    padding-bottom: 20px;
+}
+
+.jogo-item h2 {
+    color: #e74c3c;
+}
